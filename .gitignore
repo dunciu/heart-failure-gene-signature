@@ -1,0 +1,23 @@
+# GEO data and everything the pipeline writes (re-downloadable / regenerated)
+data/*
+!data/GSE57338_Metadata.csv
+!data/GSE5406_Metadata.csv
+*.tar
+*.CEL
+*.CEL.gz
+
+# Python / R
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
